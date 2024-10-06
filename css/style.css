@@ -149,8 +149,43 @@ header {
 }
 
 .aside-img {
-    margin-left: -30px;
-    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(70, 163, 88, 0.1), rgb(70, 163, 88, 0.03));
+    position: relative;
+}
+
+.bg-items {
+    position: absolute;
+}
+
+.bg-items-1 {
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(135deg, rgb(70, 163, 88, 0.5), rgb(70, 163, 88, 0));
+    border-radius: 50%;
+    top: 105px;
+    left: 67px;
+}
+
+.bg-items-2 {
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(90deg, rgb(70, 163, 88, 0.5), rgb(70, 163, 88, 0));
+    border-radius: 50%;
+    bottom: 82px;
+    right: 17px;
+}
+
+.bg-items-3 {
+    width: 22px;
+    height: 22px;
+    background: linear-gradient(135deg, rgb(70, 163, 88, 0.5), rgb(70, 163, 88, 0));
+    border-radius: 7px;
+    bottom: 147px;
+    left: 16px;
 }
 
 .aside-container {
